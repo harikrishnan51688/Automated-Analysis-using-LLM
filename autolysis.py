@@ -100,7 +100,7 @@ def analysis(csv_file):
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
     
-    readme_path = os.path.join(folder_name, 'readme.md')
+    readme_path = os.path.join(folder_name, 'README.md')
     with open(readme_path, 'w') as readme:
         readme.write(response['choices'][0]['message']['content'])
 
