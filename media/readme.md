@@ -56,5 +56,6 @@ Here are several examples that depict the diversity of data:
 | 11-Oct-24  | Telugu   | movie | Kushi             | Vijay Devarakonda, Samantha          | 3       | 3       | 1             |
 | 05-Oct-24  | Tamil    | movie | GOAT              | Vijay                                 | 3       | 3       | 1             |
 
+
 ### Conclusion
 The `media.csv` dataset provides a rich source of insights into movie ratings, types, contributions, and language diversity. While it is relatively complete, efforts should be made to handle missing `date` and `by` entries to enhance the dataset's robustness for future analyses. Overall, the dataset reflects a varied landscape of media with satisfactory overall and quality ratings.

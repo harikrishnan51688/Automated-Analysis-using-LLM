@@ -1,4 +1,3 @@
-```markdown
 # Happiness Dataset Analysis
 
 ## Filename
@@ -67,5 +66,3 @@ The dataset contains the following columns:
 - Conducting correlations between different factors such as GDP, social support, and life expectancy with happiness levels.
 - Exploring time series analyses to assess how happiness scores have changed across years, particularly post significant global events (e.g., economic crises, pandemics).
 - Investigating geographical patterns or clusters of happiness based on region, and exploring inter-country comparisons for a more in-depth understanding of societal well-being.
-
-```
