@@ -52,12 +52,19 @@ def create_visualization(df, column_data, filename):
     plt.close()
 
     hist_file_path = os.path.join(filename, 'histogram_plot.png')
+    plt.figure(figsize=(5.12, 5.12))
     sns.histplot(df[hist_column], kde=True)
-    plt.savefig(hist_file_path)
+    plt.title(f"Histogram of {hist_column}")
+    plt.xlabel(hist_column)
+    plt.ylabel("Frequency")
+    plt.savefig(hist_file_path, dpi=100)
     plt.close()
 
     line_file_path = os.path.join(filename, 'line_plot.png')
     sns.lineplot(data=df, x=line_column[0], y=line_column[1])
+    plt.title(f"Line Plot of {line_column[0]} vs {line_column[1]}")
+    plt.xlabel(line_column[0])
+    plt.ylabel(line_column[1])
     plt.savefig(line_file_path)
     plt.close()
     
